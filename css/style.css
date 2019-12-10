@@ -117,3 +117,22 @@
   filter: invert(1);
   border-radius: 15px;
 }
+/*ex-9*/
+.ex-9-img{
+  transition: 5s;
+}
+.ex-9-img:hover{
+  filter: grayscale(1);
+  filter: invert(1);
+  transform: scale(2);
+}
+/*ex-10*/
+.ex-10-icon {
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+   0%{
+    transform: rotate(1turn);
+  }
+}
+/*ex-11*/
